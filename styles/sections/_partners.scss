@@ -1,0 +1,23 @@
+.section-partners {
+  background-color: $color-primary;
+  padding: 3rem 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.partners-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+
+  &__partner {
+    max-width: 5rem;
+  }
+}

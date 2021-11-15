@@ -4,6 +4,7 @@ $font-heading: 2.5rem;
 $font-base: 18px;
 
 .heading {
+  font-family: 'Cocogoose', sans-serif;
   text-transform: uppercase;
   font-size: 2rem;
   color: $color-secondary;
@@ -30,11 +31,29 @@ $font-base: 18px;
 }
 
 .section-title {
+  font-family: 'Lato', sans-serif;
   font-size: 1.5rem;
   text-transform: capitalize;
   text-align: center;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -9px;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 2px;
+    background-color: $color-secondary;
+    border-radius: 5px;
+  }
 
   &--light {
     color: #fff;
+  }
+
+  &--secondary {
+    color: $color-tertiary;
   }
 }
