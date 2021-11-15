@@ -14,7 +14,7 @@ $font-base: 18px;
     ),
     url(../images/hero-img.jpg);
   background-repeat: repeat;
-  background-size: 30%;
+  background-size: 80%;
   background-position: 100% 100%;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -27,4 +27,14 @@ $font-base: 18px;
   font-size: 1.2rem;
   font-weight: 300;
   color: $color-secondary;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  text-align: center;
+
+  &--light {
+    color: #fff;
+  }
 }

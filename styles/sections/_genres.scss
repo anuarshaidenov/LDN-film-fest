@@ -1,0 +1,44 @@
+.section-genres {
+  padding: 3rem 0;
+  background-image: linear-gradient(
+      0deg,
+      rgba($color-primary, 0.8),
+      rgba($color-primary, 0.8)
+    ),
+    url(../images/heart-bg.svg);
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
+.genres-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.genre-card {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: rgba($color-tertiary, 0.1);
+  padding: 1rem;
+
+  &__icon {
+    width: 2rem;
+  }
+
+  &__title {
+    color: $color-secondary;
+    font-size: 0.8rem;
+  }
+
+  &__description {
+    font-size: 0.8rem;
+    color: #fff;
+  }
+}

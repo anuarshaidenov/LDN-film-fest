@@ -1,4 +1,4 @@
-.btn-cta {
+.btn-secondary {
   font-size: 0.8rem;
   font-weight: 500;
   color: $color-secondary;
@@ -16,4 +16,11 @@
     box-shadow: 0 8px 16px rgba($color-secondary, 0.24);
     transform: translateY(-1px);
   }
+}
+
+.btn-cta {
+  font-size: 1rem;
+  color: #fff;
+  background: $color-secondary;
+  padding: 1em 3em;
 }
