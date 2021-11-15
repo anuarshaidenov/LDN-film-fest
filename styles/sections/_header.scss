@@ -1,0 +1,22 @@
+.header {
+  padding: 2rem 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.mobile-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger {
+  width: 1.5rem;
+}
+
+.logo {
+  width: 4rem;
+  color: $color-primary;
+}

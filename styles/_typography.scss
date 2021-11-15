@@ -2,3 +2,29 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 $font-heading: 2.5rem;
 $font-base: 18px;
+
+.heading {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: $color-secondary;
+  background: linear-gradient(
+      0deg,
+      rgba($color-secondary, 0.7),
+      rgba($color-secondary, 0.7)
+    ),
+    url(../images/hero-img.jpg);
+  background-repeat: repeat;
+  background-size: 30%;
+  background-position: 100% 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: $color-secondary;
+}

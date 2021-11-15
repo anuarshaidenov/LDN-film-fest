@@ -12,7 +12,7 @@ body {
 }
 
 body {
-  font-family: 'Pontano Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 h1,
@@ -31,4 +31,17 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.container {
+  width: 95%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none !important;
+}
+.translated {
+  transform: translateX(150%);
 }
