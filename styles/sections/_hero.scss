@@ -3,14 +3,10 @@
   padding-top: 7.5rem;
   background: linear-gradient(
       0deg,
-      rgba($color-primary, 0.6),
-      rgba($color-primary, 1)
+      rgba($color-tertiary, 0.8),
+      rgba($color-tertiary, 0.5)
     ),
-    linear-gradient(
-      0deg,
-      rgba($color-tertiary, 0.89),
-      rgba($color-tertiary, 0.89)
-    ),
+    linear-gradient(0deg, rgba(#fff, 0.8), rgba(#fff, 0.8)),
     url(../images/hero-img.jpg);
   background-position: center;
   background-size: cover;
