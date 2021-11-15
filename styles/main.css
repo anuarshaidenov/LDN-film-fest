@@ -1,14 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html,
 body {
-  font-size: $font-base;
+  font-size: 18px;
 }
 
 body {
@@ -32,3 +35,4 @@ a {
   text-decoration: none;
   color: inherit;
 }
+/*# sourceMappingURL=main.css.map */
