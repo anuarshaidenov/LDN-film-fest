@@ -1,6 +1,6 @@
 .section-hero {
-  min-height: 100vh;
-  padding-top: 7.5rem;
+  min-height: 90vh;
+  padding-top: 28vh;
   background: linear-gradient(
       0deg,
       rgba($color-tertiary, 0.8),
@@ -12,10 +12,21 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-  .container {
+  @media (min-width: 768px) {
+    // padding-top: 20%;
+  }
+
+  &__text {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      text-align: left;
+      align-items: flex-start;
+      width: 80%;
+    }
   }
 }

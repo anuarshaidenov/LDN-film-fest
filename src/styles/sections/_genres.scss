@@ -8,6 +8,10 @@
     url(../images/heart-bg.svg);
   background-attachment: fixed;
 
+  @media (min-width: 768px) {
+    padding: 5rem 0;
+  }
+
   .container {
     display: flex;
     flex-direction: column;
@@ -20,6 +24,10 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
 }
 
 .genre-card {
@@ -29,13 +37,20 @@
   background-color: rgba($color-tertiary, 0.1);
   padding: 1rem;
 
+  @media (min-width: 768px) {
+    text-align: center;
+    flex-direction: column;
+  }
+
   &__icon {
-    width: 2rem;
+    max-height: 2rem;
+    min-width: 2rem;
   }
 
   &__title {
     color: $color-secondary;
     font-size: 0.9rem;
+    min-width: 4rem;
   }
 
   &__description {

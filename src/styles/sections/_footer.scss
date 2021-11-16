@@ -3,10 +3,18 @@
 
   &__logo {
     width: 5rem;
+
+    @media (min-width: 768px) {
+      width: 4rem;
+    }
   }
 
   &__rights {
     font-size: 0.8rem;
+  }
+
+  @media (min-width: 768px) {
+    padding: 2rem 0;
   }
 
   .container {
