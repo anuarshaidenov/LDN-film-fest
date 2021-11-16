@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LDN Film Fest</title>
     <link rel="stylesheet" href="../styles/main.css" />
+    <script defer type="module" src="../js/index.js"></script>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <div class="container">
         <a href="./home.html"
           ><img src="../images/logo.svg" alt="LDN FF Logo" class="logo"
         /></a>
-        <img
-          src="../images/hamburger.svg"
-          alt="Hamburger Icon"
-          class="hamburger"
-          id="hamburger"
-        />
+        <div class="hamburger-container" id="hamburger">
+          <img
+            src="../images/hamburger.svg"
+            alt="Hamburger Icon"
+            class="hamburger"
+          />
+        </div>
         <nav class="nav">
           <ul class="nav-links">
             <li class="nav-link"><a href="./about.html">About</a></li>
@@ -43,7 +45,9 @@
             </h3>
             <a href="#" class="btn-secondary">BOOK NOW</a>
             <h2 class="section-hero__date">23.12.2021(THU) ~ 16(FRI)</h2>
-            <p class="base-text">@ Central London Cinema, Peckham</p>
+            <p class="base-text section-hero__location">
+              @ Central London Cinema, Peckham
+            </p>
           </div>
         </div>
       </section>

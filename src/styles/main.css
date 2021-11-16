@@ -5,8 +5,8 @@
   text-transform: uppercase;
   font-size: 2rem;
   color: #ec5242;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(236, 82, 66, 0.7)), to(rgba(236, 82, 66, 0.7))), url(../images/hero-img.jpg);
-  background: linear-gradient(0deg, rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url(../images/hero-img.jpg);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(236, 82, 66, 0.85)), to(rgba(236, 82, 66, 0.85))), url(../images/hero-img.jpg);
+  background: linear-gradient(0deg, rgba(236, 82, 66, 0.85), rgba(236, 82, 66, 0.85)), url(../images/hero-img.jpg);
   background-repeat: repeat;
   background-size: 80%;
   background-position: 100% 100%;
@@ -191,6 +191,8 @@ a {
   left: 0;
   top: 0;
   width: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .header .container {
@@ -207,12 +209,20 @@ a {
 
 @media (min-width: 768px) {
   .header {
-    position: fixed;
     padding: 0.5rem 0;
-    background-color: #fff;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.7);
+    z-index: 1000;
+  }
+}
+
+@media (min-width: 768px) {
+  .sticky {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: inherit;
     -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
   }
 }
 
@@ -226,6 +236,23 @@ a {
   .hamburger {
     display: none;
   }
+}
+
+.hamburger-container {
+  position: fixed;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  right: 10px;
+  top: 50px;
+}
+
+.hamburger-sticky {
+  top: 80vh;
+  background-color: #ec5242;
+  padding: 1rem;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(236, 82, 66, 0.5);
+          box-shadow: 0px 2px 10px 0px rgba(236, 82, 66, 0.5);
 }
 
 .logo {
@@ -273,8 +300,8 @@ a {
 .section-hero {
   min-height: 95vh;
   padding-top: 20vh;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(211, 211, 211, 0.8)), to(rgba(211, 211, 211, 0.5))), -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url(../images/hero-img.jpg);
-  background: linear-gradient(0deg, rgba(211, 211, 211, 0.8), rgba(211, 211, 211, 0.5)), linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../images/hero-img.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 42, 49, 0.8)), to(rgba(211, 211, 211, 0.5))), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.7))), url(../images/hero-img.jpg);
+  background: linear-gradient(rgba(39, 42, 49, 0.8), rgba(211, 211, 211, 0.5)), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/hero-img.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -307,9 +334,6 @@ a {
 
 .section-hero__subheading {
   max-width: 400px;
-  padding: 1rem;
-  border: 2px solid #fff;
-  border-radius: 5px;
 }
 
 @media (min-width: 768px) {
@@ -321,6 +345,10 @@ a {
 .section-hero__date {
   font-family: 'Cocogoose', sans-serif;
   color: #272a31;
+}
+
+.section-hero__location {
+  margin-bottom: 3rem;
 }
 
 .section-genres {

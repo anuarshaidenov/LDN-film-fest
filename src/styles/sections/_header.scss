@@ -4,6 +4,7 @@
   left: 0;
   top: 0;
   width: 100%;
+  transition: all 0.3s;
 
   .container {
     display: flex;
@@ -12,11 +13,19 @@
   }
 
   @media (min-width: 768px) {
-    position: fixed;
     padding: 0.5rem 0;
-    background-color: #fff;
-    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    color: rgba(#fff, 0.7);
     z-index: 1000;
+  }
+}
+
+.sticky {
+  @media (min-width: 768px) {
+    position: fixed;
+    background-color: rgba(#fff, 0.9);
+    color: inherit;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
   }
 }
 
@@ -28,6 +37,21 @@
   @media (min-width: 768px) {
     display: none;
   }
+}
+
+.hamburger-container {
+  position: fixed;
+  transition: all 0.5s;
+  right: 10px;
+  top: 50px;
+}
+
+.hamburger-sticky {
+  top: 80vh;
+  background-color: $color-secondary;
+  padding: 1rem;
+  border-radius: 50%;
+  box-shadow: 0px 2px 10px 0px rgba($color-secondary, 0.5);
 }
 
 .logo {
