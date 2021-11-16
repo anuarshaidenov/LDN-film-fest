@@ -17,6 +17,10 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   grid-gap: 1rem;
+
+  @media (max-width: 360px) {
+    display: block;
+  }
 }
 
 .creative-card {

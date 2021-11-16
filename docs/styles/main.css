@@ -523,6 +523,12 @@ a {
   grid-gap: 1rem;
 }
 
+@media (max-width: 360px) {
+  .creatives-list {
+    display: block;
+  }
+}
+
 .creative-card {
   padding: 0.5rem;
   display: -ms-grid;
