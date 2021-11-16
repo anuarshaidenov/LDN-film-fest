@@ -347,6 +347,10 @@ a {
   }
 }
 
+.current {
+  color: #ec5242;
+}
+
 .section-hero {
   min-height: 95vh;
   padding-top: 20vh;
