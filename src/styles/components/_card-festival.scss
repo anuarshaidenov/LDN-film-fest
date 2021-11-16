@@ -1,15 +1,29 @@
 .card-festival {
   padding: 3rem 1rem;
   width: 100%;
+  max-width: 600px;
   background: linear-gradient(
-      0deg,
       rgba($color-secondary, 0.7),
       rgba($color-secondary, 0.7)
     ),
     url(../images/hero-img.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
   color: #fff;
+  transition: all 0.4s;
+
+  &:hover {
+    background: linear-gradient(
+        rgba($color-secondary, 0.85),
+        rgba($color-secondary, 0.85)
+      ),
+      url(../images/hero-img.jpg);
+    background-size: 105%;
+  }
+
+  @media (min-width: 768px) {
+    padding: 5rem 1rem;
+  }
 
   &__year {
     font-size: 2rem;

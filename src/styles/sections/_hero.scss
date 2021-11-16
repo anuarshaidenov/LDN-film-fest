@@ -1,6 +1,6 @@
 .section-hero {
-  min-height: 90vh;
-  padding-top: 28vh;
+  min-height: 95vh;
+  padding-top: 20vh;
   background: linear-gradient(
       0deg,
       rgba($color-tertiary, 0.8),
@@ -11,10 +11,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
-  @media (min-width: 768px) {
-    // padding-top: 20%;
-  }
 
   &__text {
     display: flex;
@@ -28,5 +24,21 @@
       align-items: flex-start;
       width: 80%;
     }
+  }
+
+  &__subheading {
+    max-width: 400px;
+    padding: 1rem;
+    border: 2px solid #fff;
+    border-radius: 5px;
+
+    @media (min-width: 768px) {
+      font-size: 1rem;
+    }
+  }
+
+  &__date {
+    font-family: 'Cocogoose', sans-serif;
+    color: $color-primary;
   }
 }

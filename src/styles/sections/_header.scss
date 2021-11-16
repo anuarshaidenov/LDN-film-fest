@@ -23,6 +23,7 @@
 .hamburger {
   width: 1.5rem;
   height: 1.1rem;
+  cursor: pointer;
 
   @media (min-width: 768px) {
     display: none;

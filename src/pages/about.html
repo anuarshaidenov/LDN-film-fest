@@ -10,14 +10,25 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav class="mobile-nav">
-          <img src="../images/logo.svg" alt="LDN FF Logo" class="logo" />
-          <img
-            src="../images/hamburger.svg"
-            alt="Hamburger Icon"
-            class="hamburger"
-            id="hamburger"
-          />
+        <a href="./home.html"
+          ><img src="../images/logo.svg" alt="LDN FF Logo" class="logo"
+        /></a>
+        <img
+          src="../images/hamburger.svg"
+          alt="Hamburger Icon"
+          class="hamburger"
+          id="hamburger"
+        />
+        <nav class="nav">
+          <ul class="nav-links">
+            <li class="nav-link"><a href="./about.html">About</a></li>
+            <li class="nav-link"><a href="./about.html">Genres</a></li>
+            <li class="nav-link"><a href="./about.html">Sponsors</a></li>
+            <li class="nav-link"><a href="./about.html">Blog</a></li>
+            <li class="nav-link">
+              <a class="btn-secondary" href="/about.html">Book</a>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
@@ -38,7 +49,9 @@
             Please contact us per Email for any further questions about LDN FF
             2021!
           </p>
-          <p class="base-text base-text--bold">contact@ldnff.com</p>
+          <p class="base-text base-text--bold about-hero__contact">
+            contact@ldnff.com
+          </p>
         </div>
       </section>
       <section class="section-logo">
@@ -62,12 +75,14 @@
         <div class="container">
           <h2 class="section-title">See the past LDN Film Festivals</h2>
           <p class="section-subtext">Take a look at the last two festivals</p>
-          <a href="#" class="card-festival">
-            <h3 class="card-festival__year">2020</h3>
-          </a>
-          <a href="#" class="card-festival">
-            <h3 class="card-festival__year">2019</h3>
-          </a>
+          <div class="section-past__cards">
+            <a href="#" class="card-festival">
+              <h3 class="card-festival__year">2020</h3>
+            </a>
+            <a href="#" class="card-festival">
+              <h3 class="card-festival__year">2019</h3>
+            </a>
+          </div>
         </div>
       </section>
       <section class="section-partners">
