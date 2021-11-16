@@ -1,3 +1,22 @@
 .about-hero {
+  background-color: rgba($color-tertiary, 0.6);
+  text-align: center;
   padding: 7rem 0 3rem;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  &__heading {
+    margin-bottom: 1rem;
+  }
+
+  &__description {
+    padding: 0.5rem;
+    background-color: #fff;
+    border: 1px solid $color-tertiary;
+  }
 }

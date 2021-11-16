@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
 .heading {
   font-family: 'Cocogoose', sans-serif;
@@ -50,6 +50,10 @@
 
 .section-title--secondary {
   color: #d3d3d3;
+}
+
+.base-text--bold {
+  font-weight: 700;
 }
 
 *,
@@ -411,6 +415,32 @@ a {
 }
 
 .about-hero {
+  background-color: rgba(211, 211, 211, 0.6);
+  text-align: center;
   padding: 7rem 0 3rem;
+}
+
+.about-hero .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+}
+
+.about-hero__heading {
+  margin-bottom: 1rem;
+}
+
+.about-hero__description {
+  padding: 0.5rem;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
 }
 /*# sourceMappingURL=main.css.map */
