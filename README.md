@@ -5,9 +5,6 @@
 ### Home page desktop:
 ![screenshot](./screenshot.png)
 
-### Home page mobile:
-![screenshot](./screenshot-mobile.png)
-
 ## Objective:
 
 - Showcase the project.
