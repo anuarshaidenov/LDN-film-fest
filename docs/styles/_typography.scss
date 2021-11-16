@@ -10,12 +10,12 @@ $font-base: 18px;
   color: $color-secondary;
   background:
     linear-gradient(
-      rgba($color-secondary, 0.85),
-      rgba($color-secondary, 0.85)
+      rgba($color-secondary, 0.7),
+      rgba($color-secondary, 0.7)
     ),
-    url(../images/hero-img.jpg);
+    url(../images/hero-img-mobile.png);
   background-repeat: repeat;
-  background-size: 80%;
+  background-size: 50%;
   background-position: 100% 100%;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;

@@ -5,10 +5,10 @@
   text-transform: uppercase;
   font-size: 2rem;
   color: #ec5242;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(236, 82, 66, 0.85)), to(rgba(236, 82, 66, 0.85))), url(../images/hero-img.jpg);
-  background: linear-gradient(rgba(236, 82, 66, 0.85), rgba(236, 82, 66, 0.85)), url(../images/hero-img.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(236, 82, 66, 0.7)), to(rgba(236, 82, 66, 0.7))), url(../images/hero-img-mobile.png);
+  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url(../images/hero-img-mobile.png);
   background-repeat: repeat;
-  background-size: 80%;
+  background-size: 50%;
   background-position: 100% 100%;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
