@@ -1,7 +1,7 @@
 import { stickHeader, stickHamburger } from './sticky.js';
 import * as mobileMenu from './mobileMenu.js';
-import { displayCurrentLink } from './currentPage.js';
-import { displayData } from './displayData.js';
+import displayCurrentLink from './currentPage.js';
+import displayData from './displayData.js';
 
 const links = document.querySelectorAll('.nav-link a');
 const mobileLinks = document.querySelectorAll('.mobile-menu__nav-link a');

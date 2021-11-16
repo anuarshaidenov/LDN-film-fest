@@ -1,5 +1,1 @@
 node_modules/
-*.css.map
-.eslintrc.json
-.hintrc
-.stylelintrc.json

@@ -6,7 +6,7 @@ const hamburger = document.getElementById('hamburger-container');
 const stickyHeader = header.offsetTop;
 const stickyHamburger = hamburger.offsetTop;
 
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+// Add the sticky class to the header when you reach its scroll position.
 export function stickHeader() {
   if (window.pageYOffset > stickyHeader) {
     header.classList.add('sticky');

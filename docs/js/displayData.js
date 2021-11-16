@@ -1,4 +1,6 @@
-export function displayData(container, data) {
+export default function displayData(container, data) {
+  if (!container) return;
+
   data.forEach((entry) => {
     const markup = `
   <li class="creative-card">
