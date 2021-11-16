@@ -66,6 +66,13 @@ body {
   font-size: 18px;
 }
 
+@media (min-width: 768px) {
+  html,
+  body {
+    font-size: 20px;
+  }
+}
+
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -150,6 +157,7 @@ a {
 
 .hamburger {
   width: 1.5rem;
+  height: 1.1rem;
 }
 
 .logo {
@@ -260,8 +268,8 @@ a {
 .creatives-list {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  -ms-grid-columns: (minmax(340px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   grid-gap: 1rem;
 }
 
@@ -283,9 +291,9 @@ a {
 .creative-card__img {
   -ms-grid-column-align: end;
       justify-self: end;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
   grid-row: 1 / -1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
@@ -400,5 +408,9 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.about-hero {
+  padding: 7rem 0 3rem;
 }
 /*# sourceMappingURL=main.css.map */

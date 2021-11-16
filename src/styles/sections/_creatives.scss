@@ -11,7 +11,7 @@
 
 .creatives-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   grid-gap: 1rem;
 }
 
@@ -25,7 +25,7 @@
 
   &__img {
     justify-self: end;
-    align-self: center;
+    align-self: start;
     grid-row: 1 / -1;
     grid-column: 1 / 2;
     width: 100%;
