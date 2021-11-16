@@ -1,0 +1,17 @@
+.card-festival {
+  padding: 3rem 1rem;
+  width: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba($color-secondary, 0.7),
+      rgba($color-secondary, 0.7)
+    ),
+    url(../images/hero-img.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+
+  &__year {
+    font-size: 2rem;
+  }
+}

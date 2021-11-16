@@ -143,6 +143,20 @@ a {
   padding: 1em 3em;
 }
 
+.card-festival {
+  padding: 3rem 1rem;
+  width: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(236, 82, 66, 0.7)), to(rgba(236, 82, 66, 0.7))), url(../images/hero-img.jpg);
+  background: linear-gradient(0deg, rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url(../images/hero-img.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.card-festival__year {
+  font-size: 2rem;
+}
+
 .header {
   padding: 2rem 0;
   position: absolute;
@@ -151,7 +165,7 @@ a {
   width: 100%;
 }
 
-.mobile-nav {
+.header .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -163,14 +177,67 @@ a {
           align-items: center;
 }
 
+@media (min-width: 768px) {
+  .header {
+    position: fixed;
+    padding: 0.5rem 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+}
+
 .hamburger {
   width: 1.5rem;
   height: 1.1rem;
 }
 
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+}
+
 .logo {
   width: 4rem;
   color: #272a31;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 3rem;
+  }
+}
+
+.nav {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    display: block;
+  }
+}
+
+.nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-link {
+  margin-right: 1rem;
+}
+
+.nav-link:last-of-type {
+  margin-right: 0;
+}
+
+.nav-link a {
+  font-size: 0.65rem;
 }
 
 .section-hero {
@@ -419,7 +486,10 @@ a {
 }
 
 .about-hero {
-  background-color: rgba(211, 211, 211, 0.6);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(211, 211, 211, 0.5)), to(rgba(211, 211, 211, 0.99))), url(../images/hero-img.jpg);
+  background: linear-gradient(0deg, rgba(211, 211, 211, 0.5), rgba(211, 211, 211, 0.99)), url(../images/hero-img.jpg);
+  background-position: center;
+  background-size: cover;
   text-align: center;
   padding: 7rem 0 3rem;
 }
@@ -446,6 +516,7 @@ a {
   padding: 0.5rem;
   background-color: #fff;
   border: 2px solid #d3d3d3;
+  border-radius: 5px;
 }
 
 .section-logo {
@@ -475,5 +546,24 @@ a {
   padding: 1rem 2rem;
   width: 70%;
   border: 2px solid #d3d3d3;
+}
+
+.section-past {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.section-past .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
 }
 /*# sourceMappingURL=main.css.map */

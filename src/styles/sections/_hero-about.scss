@@ -1,5 +1,12 @@
 .about-hero {
-  background-color: rgba($color-tertiary, 0.6);
+  background: linear-gradient(
+      0deg,
+      rgba($color-tertiary, 0.5),
+      rgba($color-tertiary, 0.99)
+    ),
+    url(../images/hero-img.jpg);
+  background-position: center;
+  background-size: cover;
   text-align: center;
   padding: 7rem 0 3rem;
 
@@ -18,5 +25,6 @@
     padding: 0.5rem;
     background-color: #fff;
     border: 2px solid $color-tertiary;
+    border-radius: 5px;
   }
 }

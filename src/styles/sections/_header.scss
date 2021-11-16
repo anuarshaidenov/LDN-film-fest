@@ -4,20 +4,60 @@
   left: 0;
   top: 0;
   width: 100%;
-}
 
-.mobile-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    position: fixed;
+    padding: 0.5rem 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+  }
 }
 
 .hamburger {
   width: 1.5rem;
   height: 1.1rem;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 }
 
 .logo {
   width: 4rem;
   color: $color-primary;
+
+  @media (min-width: 768px) {
+    width: 3rem;
+  }
+}
+
+.nav {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin-right: 1rem;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  a {
+    font-size: 0.65rem;
+  }
 }
