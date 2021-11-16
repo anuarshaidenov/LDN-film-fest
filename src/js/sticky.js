@@ -1,6 +1,6 @@
 // Get the header
 const header = document.getElementById('header');
-const hamburger = document.getElementById('hamburger');
+const hamburger = document.getElementById('hamburger-container');
 
 // Get the offset position of the navbar
 const stickyHeader = header.offsetTop;

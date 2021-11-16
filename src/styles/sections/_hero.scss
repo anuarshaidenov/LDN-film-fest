@@ -17,11 +17,11 @@
     gap: 1rem;
     align-items: center;
     text-align: center;
+    max-width: 600px;
 
     @media (min-width: 768px) {
       text-align: left;
       align-items: flex-start;
-      width: 80%;
     }
   }
 
