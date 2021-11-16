@@ -72,6 +72,7 @@
 html,
 body {
   font-size: 18px;
+  background-color: #272a31;
 }
 
 @media (min-width: 768px) {
@@ -500,6 +501,7 @@ a {
 
 .section-creatives {
   padding: 3rem 0;
+  background-color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -657,6 +659,7 @@ a {
 }
 
 .footer {
+  background-color: #fff;
   padding: 3rem 0;
 }
 
@@ -750,6 +753,7 @@ a {
 }
 
 .section-logo {
+  background-color: #fff;
   padding: 3rem 0;
   text-align: center;
   position: relative;
@@ -806,6 +810,7 @@ a {
 }
 
 .section-past {
+  background-color: #fff;
   padding: 3rem 0;
   text-align: center;
 }
