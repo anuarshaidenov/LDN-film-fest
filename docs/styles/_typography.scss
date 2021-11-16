@@ -8,8 +8,8 @@ $font-base: 18px;
   text-transform: uppercase;
   font-size: 2rem;
   color: $color-secondary;
-  background: linear-gradient(
-      0deg,
+  background:
+    linear-gradient(
       rgba($color-secondary, 0.85),
       rgba($color-secondary, 0.85)
     ),
@@ -17,7 +17,6 @@ $font-base: 18px;
   background-repeat: repeat;
   background-size: 80%;
   background-position: 100% 100%;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }

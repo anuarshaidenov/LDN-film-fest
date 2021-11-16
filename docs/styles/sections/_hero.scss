@@ -1,7 +1,8 @@
 .section-hero {
   min-height: 95vh;
   padding-top: 20vh;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       rgba($color-primary, 0.8),
       rgba($color-tertiary, 0.5)
     ),
@@ -27,6 +28,7 @@
 
   &__subheading {
     max-width: 400px;
+
     @media (min-width: 768px) {
       font-size: 1rem;
     }

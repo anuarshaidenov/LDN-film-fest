@@ -2,7 +2,8 @@
   padding: 3rem 1rem;
   width: 100%;
   max-width: 600px;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       rgba($color-secondary, 0.7),
       rgba($color-secondary, 0.7)
     ),
@@ -14,7 +15,8 @@
   transition: all 0.4s;
 
   &:hover {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         rgba($color-secondary, 0.85),
         rgba($color-secondary, 0.85)
       ),
