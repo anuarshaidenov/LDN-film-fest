@@ -44,7 +44,7 @@
 }
 
 .section-title--light {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .section-title--secondary {
@@ -139,7 +139,7 @@ a {
 
 .btn-cta {
   font-size: 1rem;
-  color: #fff;
+  color: #272a31;
   background: #ec5242;
   padding: 1em 3em;
   border-radius: 5px;
@@ -159,8 +159,8 @@ a {
   padding: 3rem 1rem;
   width: 100%;
   max-width: 600px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(236, 82, 66, 0.7)), to(rgba(236, 82, 66, 0.7))), url(../images/hero-img.jpg);
-  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url(../images/hero-img.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(236, 82, 66, 0.7)), to(rgba(236, 82, 66, 0.7))), url(../images/hero-img-mobile.png);
+  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url(../images/hero-img-mobile.png);
   background-position: center;
   background-size: 100%;
   color: #fff;
@@ -170,8 +170,8 @@ a {
 }
 
 .card-festival:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(236, 82, 66, 0.85)), to(rgba(236, 82, 66, 0.85))), url(../images/hero-img.jpg);
-  background: linear-gradient(rgba(236, 82, 66, 0.85), rgba(236, 82, 66, 0.85)), url(../images/hero-img.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(236, 82, 66, 0.85)), to(rgba(236, 82, 66, 0.85))), url(../images/hero-img-mobile.png);
+  background: linear-gradient(rgba(236, 82, 66, 0.85), rgba(236, 82, 66, 0.85)), url(../images/hero-img-mobile.png);
   background-size: 105%;
 }
 
@@ -353,11 +353,18 @@ a {
 .section-hero {
   min-height: 95vh;
   padding-top: 20vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 42, 49, 0.8)), to(rgba(211, 211, 211, 0.5))), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.7))), url(../images/hero-img.jpg);
-  background: linear-gradient(rgba(39, 42, 49, 0.8), rgba(211, 211, 211, 0.5)), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/hero-img.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 42, 49, 0.9)), to(rgba(39, 42, 49, 0.5))), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.7))), url(../images/hero-img-mobile.png);
+  background: linear-gradient(rgba(39, 42, 49, 0.9), rgba(39, 42, 49, 0.5)), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/hero-img-mobile.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .section-hero {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 42, 49, 0.9)), to(rgba(39, 42, 49, 0.5))), url(../images/hero-img.png);
+    background: linear-gradient(rgba(39, 42, 49, 0.9), rgba(39, 42, 49, 0.5)), url(../images/hero-img.png);
+  }
 }
 
 .section-hero__text {
@@ -397,17 +404,18 @@ a {
 
 .section-hero__date {
   font-family: 'Cocogoose', sans-serif;
-  color: #272a31;
+  color: #d3d3d3;
 }
 
 .section-hero__location {
   margin-bottom: 3rem;
+  color: #d3d3d3;
 }
 
 .section-genres {
   padding: 3rem 0;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(39, 42, 49, 0.8)), to(rgba(39, 42, 49, 0.8))), url(../images/heart-bg.svg);
-  background-image: linear-gradient(0deg, rgba(39, 42, 49, 0.8), rgba(39, 42, 49, 0.8)), url(../images/heart-bg.svg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 42, 49, 0.9)), to(rgba(39, 42, 49, 0.9))), url(../images/heart-bg.svg);
+  background-image: linear-gradient(rgba(39, 42, 49, 0.9), rgba(39, 42, 49, 0.9)), url(../images/heart-bg.svg);
   background-attachment: fixed;
 }
 
@@ -459,7 +467,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   gap: 0.5rem;
-  background-color: rgba(211, 211, 211, 0.1);
+  background-color: rgba(211, 211, 211, 0.2);
   padding: 1rem;
   border-radius: 5px;
 }
@@ -487,7 +495,7 @@ a {
 
 .genre-card__description {
   font-size: 0.8rem;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .section-creatives {
@@ -685,12 +693,19 @@ a {
 }
 
 .about-hero {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(211, 211, 211, 0.8)), to(rgba(39, 42, 49, 0.8))), url(../images/hero-img.jpg);
-  background: linear-gradient(0deg, rgba(211, 211, 211, 0.8), rgba(39, 42, 49, 0.8)), url(../images/hero-img.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 42, 49, 0.8)), to(rgba(39, 42, 49, 0.8))), url(../images/hero-img-mobile.png);
+  background: linear-gradient(rgba(39, 42, 49, 0.8), rgba(39, 42, 49, 0.8)), url(../images/hero-img-mobile.png);
   background-position: center;
   background-size: cover;
   text-align: center;
   padding: 7rem 0 3rem;
+}
+
+@media (min-width: 768px) {
+  .about-hero {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 42, 49, 0.8)), to(rgba(39, 42, 49, 0.8))), url(../images/hero-img.png);
+    background: linear-gradient(rgba(39, 42, 49, 0.8), rgba(39, 42, 49, 0.8)), url(../images/hero-img.png);
+  }
 }
 
 .about-hero .container {
@@ -719,13 +734,18 @@ a {
 
 .about-hero__description {
   padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(39, 42, 49, 0.7);
   border: 2px solid #d3d3d3;
   border-radius: 5px;
   max-width: 850px;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .about-hero__contact {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.about-hero__contact--email {
   margin-top: -1rem;
 }
 

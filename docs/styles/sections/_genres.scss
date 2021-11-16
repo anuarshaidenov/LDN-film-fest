@@ -2,9 +2,8 @@
   padding: 3rem 0;
   background-image:
     linear-gradient(
-      0deg,
-      rgba($color-primary, 0.8),
-      rgba($color-primary, 0.8)
+      rgba($color-primary, 0.9),
+      rgba($color-primary, 0.9)
     ),
     url(../images/heart-bg.svg);
   background-attachment: fixed;
@@ -35,7 +34,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: rgba($color-tertiary, 0.1);
+  background-color: rgba($color-tertiary, 0.2);
   padding: 1rem;
   border-radius: 5px;
 
@@ -57,6 +56,6 @@
 
   &__description {
     font-size: 0.8rem;
-    color: #fff;
+    color: rgba($color-white, 0.8);
   }
 }

@@ -20,35 +20,35 @@ const creatives = [
     role: 'An actor',
     description:
       'Recipient of multiple accolades, including two Academy Awards, three Screen Actors Guild Awards, a BAFTA award, a Golden Globe Award and a Primetime Emmy Award.',
-    img: './images/steven.jpeg',
+    img: './images/steven.png',
   },
   {
     name: 'Zoe Kravitz',
     role: 'An actress',
     description:
       'Recipient of multiple accolades, including two Academy Awards, three Screen Actors Guild Awards, a BAFTA award, a Golden Globe Award and a Primetime Emmy Award.',
-    img: './images/zoe-kravitz.jpeg',
+    img: './images/zoe-kravitz.png',
   },
   {
     name: 'Denzel Washington',
     role: 'An actor',
     description:
       'Recipient of multiple accolades, including two Academy Awards, three Screen Actors Guild Awards, a BAFTA award, a Golden Globe Award and a Primetime Emmy Award.',
-    img: './images/denzel.jpeg',
+    img: './images/denzel.png',
   },
   {
     name: 'Brad Pitt',
     role: 'An actor',
     description:
       'Recipient of multiple accolades, including two Academy Awards, three Screen Actors Guild Awards, a BAFTA award, a Golden Globe Award and a Primetime Emmy Award.',
-    img: './images/brad-pitt.jpeg',
+    img: './images/brad-pitt.png',
   },
   {
     name: 'Quentin Tarantino',
     role: 'A film director',
     description:
       'Recipient of multiple accolades, including two Academy Awards, three Screen Actors Guild Awards, a BAFTA award, a Golden Globe Award and a Primetime Emmy Award. Director of Pupl Fiction.',
-    img: './images/quentin.jpeg',
+    img: './images/quentin.png',
   },
 ];
 
