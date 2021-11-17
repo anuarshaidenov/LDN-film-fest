@@ -26,6 +26,7 @@
   border: none;
   border-radius: 5px;
   transition: all 0.2s;
+  cursor: pointer;
 
   &:hover {
     background-color: darken($color-secondary, 5%);

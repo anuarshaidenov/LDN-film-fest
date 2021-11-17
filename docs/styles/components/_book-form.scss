@@ -10,7 +10,7 @@
     border-radius: 5px;
     border: 1px solid transparent;
     background-color: rgba($color-white, 0.8);
-    color: rgba($color-white, 0.8);
+    color: rgba($color-primary, 0.8);
 
     &::placeholder {
       color: rgba($color-primary, 0.8);
@@ -20,6 +20,7 @@
       outline: none;
       border: 1px solid $color-secondary;
       background-color: rgba($color-secondary, 0.2);
+      color: rgba($color-white, 0.8);
 
       &::placeholder {
         color: rgba($color-white, 0.8);

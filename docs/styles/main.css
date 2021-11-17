@@ -147,6 +147,7 @@ a {
   border-radius: 5px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+  cursor: pointer;
 }
 
 .btn-cta:hover {
@@ -292,6 +293,12 @@ a {
       -ms-flex-align: center;
           align-items: center;
   gap: 1rem;
+}
+
+.nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media (min-width: 768px) {
@@ -881,7 +888,7 @@ a {
   width: 100%;
   height: 100%;
   overflow-y: auto;
-  background-color: rgba(236, 82, 66, 0.5);
+  background-color: rgba(211, 211, 211, 0.2);
   -webkit-backdrop-filter: blur(3px);
           backdrop-filter: blur(3px);
   z-index: 1001;
@@ -911,6 +918,10 @@ a {
   cursor: pointer;
 }
 
+.modal h2 {
+  margin-bottom: 1rem;
+}
+
 .book-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -931,7 +942,7 @@ a {
   border-radius: 5px;
   border: 1px solid transparent;
   background-color: rgba(255, 255, 255, 0.8);
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(39, 42, 49, 0.8);
 }
 
 .book-form input::-webkit-input-placeholder {
@@ -954,6 +965,7 @@ a {
   outline: none;
   border: 1px solid #ec5242;
   background-color: rgba(236, 82, 66, 0.2);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .book-form input:focus::-webkit-input-placeholder {

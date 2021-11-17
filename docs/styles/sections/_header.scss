@@ -83,6 +83,8 @@
 }
 
 .nav-link {
+  display: flex;
+
   @media (min-width: 768px) {
     .btn-secondary {
       &::after {
