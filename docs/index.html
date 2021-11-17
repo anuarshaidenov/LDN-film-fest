@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>LDN Film Fest</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>LDN Film Fest | Home</title>
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
@@ -42,7 +45,12 @@
           </li>
           <li class="mobile-menu__nav-link"><a href="#">Blog</a></li>
           <li class="mobile-menu__nav-link">
-            <a class="mobile-menu__nav-link btn-secondary" href="#">Book</a>
+            <button
+              class="mobile-menu__nav-link btn-secondary book"
+              type="button"
+            >
+              Book
+            </button>
           </li>
         </ul>
         <nav class="nav">
@@ -52,7 +60,7 @@
             <li class="nav-link"><a href="#">Sponsors</a></li>
             <li class="nav-link"><a href="#">Blog</a></li>
             <li class="nav-link">
-              <a class="btn-secondary" href="#">Book</a>
+              <button type="button" class="btn-secondary book">Book</button>
             </li>
           </ul>
         </nav>
@@ -62,12 +70,14 @@
       <section class="section-hero">
         <div class="container">
           <div class="section-hero__text">
-            <h1 class="heading">Support your favorite author. Get to witness a masterpiece</h1>
+            <h1 class="heading">
+              Support your favorite author. Get to witness a masterpiece
+            </h1>
             <h3 class="subheading section-hero__subheading">
               FROM ALL OVER THE WORLD All the way TO LONDON. BOOK YOUR TICKETS
               NOW!
             </h3>
-            <a href="#" class="btn-secondary">BOOK NOW</a>
+            <button type="button" class="btn-secondary book">BOOK NOW</button>
             <h2 class="section-hero__date">23.12.2021(THU) ~ 16(FRI)</h2>
             <p class="base-text section-hero__location">
               @ Central London Cinema, Peckham
@@ -140,7 +150,7 @@
               </p>
             </li>
           </ul>
-          <a href="#" class="btn-cta">BOOK A TICKET</a>
+          <button type="button" class="btn-cta book">BOOK A TICKET</button>
         </div>
       </section>
       <section class="section-creatives">
@@ -178,6 +188,43 @@
         <p class="footer__rights">2021 All rights reserved.</p>
       </div>
     </footer>
+    <div class="backdrop hidden" id="modal">
+      <div class="modal">
+        <img
+          src="./images/close-icon.svg"
+          alt="Close Icon"
+          class="modal__close-btn"
+          id="close-modal"
+        />
+        <h2 class="section-title section-title--light">Book Your Ticket</h2>
+        <form action="/" class="book-form" id="book-form">
+          <input
+            type="text"
+            placeholder="name"
+            name="name"
+            id="name"
+            class="book-form__name"
+          />
+          <input
+            type="text"
+            placeholder="surname"
+            name="surname"
+            id="surname"
+            class="book-form__surname"
+          />
+          <input
+            type="email"
+            placeholder="email"
+            name="email"
+            id="email"
+            class="book-form__email"
+          />
+          <button type="submit" class="book-form__submit btn-secondary">
+            BOOK
+          </button>
+        </form>
+      </div>
+    </div>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>

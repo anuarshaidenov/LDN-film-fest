@@ -2,10 +2,14 @@ import { stickHeader, stickHamburger } from './sticky.js';
 import * as mobileMenu from './mobileMenu.js';
 import displayCurrentLink from './currentPage.js';
 import displayData from './displayData.js';
+import { openModal, closeModal } from './modal.js';
 
 const links = document.querySelectorAll('.nav-link a');
-const mobileLinks = document.querySelectorAll('.mobile-menu__nav-link a');
+const mobileLinks = document.querySelectorAll('.mobile-menu__nav-link');
 const creativesContainer = document.getElementById('creatives');
+const modal = document.getElementById('modal');
+const bookBtns = document.querySelectorAll('.book');
+const closeModalBtn = document.getElementById('close-modal');
 
 const creatives = [
   {
@@ -61,6 +65,20 @@ mobileMenu.btnHamburger.addEventListener('click', mobileMenu.openMenu);
 mobileMenu.btnClose.addEventListener('click', mobileMenu.closeMenu);
 mobileLinks.forEach((link) => {
   link.addEventListener('click', mobileMenu.closeMenu);
+});
+
+bookBtns.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    openModal(modal);
+  });
+});
+
+closeModalBtn.addEventListener('click', () => {
+  closeModal(modal);
+});
+
+modal.addEventListener('click', (e) => {
+  if (e.target.id === 'modal') closeModal(modal);
 });
 
 displayCurrentLink(links);

@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>LDN Film Fest</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>LDN Film Fest | Home</title>
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
@@ -42,7 +45,12 @@
           </li>
           <li class="mobile-menu__nav-link"><a href="#">Blog</a></li>
           <li class="mobile-menu__nav-link">
-            <a class="mobile-menu__nav-link btn-secondary" href="#">Book</a>
+            <button
+              class="mobile-menu__nav-link btn-secondary book"
+              type="button"
+            >
+              Book
+            </button>
           </li>
         </ul>
         <nav class="nav">
@@ -52,7 +60,7 @@
             <li class="nav-link"><a href="#">Sponsors</a></li>
             <li class="nav-link"><a href="#">Blog</a></li>
             <li class="nav-link">
-              <a class="btn-secondary" href="#">Book</a>
+              <button type="button" class="btn-secondary book">Book</button>
             </li>
           </ul>
         </nav>
@@ -75,7 +83,12 @@
             Please contact us per Email for any further questions about LDN FF
             2021!
           </p>
-          <p class="base-text base-text--bold about-hero__contact about-hero__contact--email">
+          <p
+            class="
+              base-text base-text--bold
+              about-hero__contact about-hero__contact--email
+            "
+          >
             contact@ldnff.com
           </p>
         </div>
@@ -140,6 +153,43 @@
         <p class="footer__rights">2021 A24 all rights reserved.</p>
       </div>
     </footer>
+    <div class="backdrop hidden" id="modal">
+      <div class="modal">
+        <img
+          src="./images/close-icon.svg"
+          alt="Close Icon"
+          class="modal__close-btn"
+          id="close-modal"
+        />
+        <h2 class="section-title section-title--light">Book Your Ticket</h2>
+        <form action="/" class="book-form" id="book-form">
+          <input
+            type="text"
+            placeholder="name"
+            name="name"
+            id="name"
+            class="book-form__name"
+          />
+          <input
+            type="text"
+            placeholder="surname"
+            name="surname"
+            id="surname"
+            class="book-form__surname"
+          />
+          <input
+            type="email"
+            placeholder="email"
+            name="email"
+            id="email"
+            class="book-form__email"
+          />
+          <button type="submit" class="book-form__submit btn-secondary">
+            BOOK
+          </button>
+        </form>
+      </div>
+    </div>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>

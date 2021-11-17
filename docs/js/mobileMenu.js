@@ -4,9 +4,18 @@ const menu = document.getElementById('menu');
 export const btnHamburger = document.getElementById('hamburger');
 export const btnClose = document.getElementById('close');
 
-export function openMenu() {
+export function disableScroll() {
   body.style.overflow = 'hidden';
   html.style.overflow = 'hidden';
+}
+
+export function enableScroll() {
+  body.style.overflow = 'visible';
+  html.style.overflow = 'visible';
+}
+
+export function openMenu() {
+  disableScroll();
 
   btnHamburger.classList.add('hidden');
   btnClose.classList.remove('hidden');
@@ -14,8 +23,7 @@ export function openMenu() {
 }
 
 export function closeMenu() {
-  body.style.overflow = 'visible';
-  html.style.overflow = 'visible';
+  enableScroll();
 
   btnClose.classList.add('hidden');
   btnHamburger.classList.remove('hidden');

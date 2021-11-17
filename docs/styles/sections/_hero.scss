@@ -19,6 +19,9 @@
         rgba($color-primary, 0.5)
       ),
       url(../images/hero-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   &__text {
