@@ -1,29 +1,24 @@
 .section-genres {
   padding: 3rem 0;
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba($color-primary, 0.9),
       rgba($color-primary, 0.9)
     ),
     url(../images/heart-bg.svg);
   background-attachment: fixed;
 
-  @media (min-width: 768px) {
-    padding: 5rem 0;
-  }
-
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
   }
 }
 
 .genres-list {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.3rem;
 
   @media (min-width: 768px) {
     flex-direction: row;
@@ -34,7 +29,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: rgba($color-tertiary, 0.2);
+  background-color: rgba($color-tertiary, 0.1);
   padding: 1rem;
   border-radius: 5px;
 

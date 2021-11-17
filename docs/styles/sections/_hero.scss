@@ -1,11 +1,7 @@
 .section-hero {
   min-height: 95vh;
   padding-top: 20vh;
-  background:
-    linear-gradient(
-      rgba($color-primary, 0.9),
-      rgba($color-primary, 0.5)
-    ),
+  background: linear-gradient(rgba($color-white, 0.9), rgba($color-white, 0.9)),
     linear-gradient(rgba(#000, 0.8), rgba(#000, 0.7)),
     url(../images/hero-img-mobile.png);
   background-position: center;
@@ -13,10 +9,9 @@
   background-repeat: no-repeat;
 
   @media (min-width: 768px) {
-    background:
-      linear-gradient(
-        rgba($color-primary, 0.9),
-        rgba($color-primary, 0.5)
+    background: linear-gradient(
+        rgba($color-white, 0.9),
+        rgba($color-white, 0.9)
       ),
       url(../images/hero-img.png);
     background-position: center;
@@ -40,19 +35,23 @@
 
   &__subheading {
     max-width: 400px;
+    border: 2px solid $color-white;
+    border-radius: 5px;
+    background-color: rgba($color-tertiary, 0.5);
+    padding: 1rem;
 
     @media (min-width: 768px) {
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
   }
 
   &__date {
     font-family: 'Cocogoose', sans-serif;
-    color: $color-tertiary;
+    color: $color-primary;
   }
 
   &__location {
     margin-bottom: 3rem;
-    color: $color-tertiary;
+    color: $color-primary;
   }
 }

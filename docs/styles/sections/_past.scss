@@ -3,10 +3,6 @@
   padding: 3rem 0;
   text-align: center;
 
-  @media (min-width: 768px) {
-    padding: 4rem 0;
-  }
-
   &__cards {
     width: 100%;
     display: flex;

@@ -1,5 +1,5 @@
 .header {
-  padding: 2rem 0;
+  padding: 1.5rem 0;
   position: absolute;
   left: 0;
   top: 0;
@@ -13,9 +13,9 @@
   }
 
   @media (min-width: 768px) {
-    padding: 0.5rem 0;
+    padding: 0 0 0.5rem;
     background-color: transparent;
-    color: rgba($color-white, 0.7);
+    color: $color-primary;
     z-index: 1000;
   }
 }
@@ -26,6 +26,10 @@
     background-color: rgba($color-white, 0.9);
     color: inherit;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+
+    .upper-nav {
+      display: none;
+    }
   }
 }
 
@@ -140,4 +144,22 @@
 
 .current {
   color: $color-secondary;
+}
+
+.upper-nav {
+  display: none;
+  background-color: $color-primary;
+  padding: 0.2rem 0;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+
+.pt {
+  padding-top: 0.5rem;
+}
+
+.jc {
+  justify-content: flex-end !important;
 }

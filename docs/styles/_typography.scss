@@ -8,10 +8,9 @@ $font-base: 18px;
   text-transform: uppercase;
   font-size: 2rem;
   color: $color-secondary;
-  background:
-    linear-gradient(
-      rgba($color-secondary, 0.7),
-      rgba($color-secondary, 0.7)
+  background: linear-gradient(
+      rgba($color-secondary, 0.9),
+      rgba($color-primary, 0.5)
     ),
     url(../images/hero-img-mobile.png);
   background-repeat: repeat;
@@ -24,9 +23,9 @@ $font-base: 18px;
 .subheading {
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   font-weight: 300;
-  color: $color-secondary;
+  color: $color-primary;
 }
 
 .section-title {

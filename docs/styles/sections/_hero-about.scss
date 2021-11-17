@@ -1,21 +1,17 @@
 .about-hero {
-  background:
-    linear-gradient(
-      rgba($color-primary, 0.8),
-      rgba($color-primary, 0.8)
-    ),
+  background: linear-gradient(rgba($color-white, 0.9), rgba($color-white, 0.9)),
     url(../images/hero-img-mobile.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 7rem 0 3rem;
+  padding: 7rem 0 5rem;
+  border-bottom: 2px solid $color-tertiary;
 
   @media (min-width: 768px) {
-    background:
-      linear-gradient(
-        rgba($color-primary, 0.8),
-        rgba($color-primary, 0.8)
+    background: linear-gradient(
+        rgba($color-white, 0.9),
+        rgba($color-white, 0.9)
       ),
       url(../images/hero-img.png);
     background-position: center;
@@ -39,16 +35,17 @@
   }
 
   &__description {
-    padding: 1rem;
-    background-color: rgba($color-primary, 0.7);
+    font-size: 0.8rem;
+    padding: 1rem 2rem;
+    background-color: rgba($color-white, 0.7);
     border: 2px solid $color-tertiary;
     border-radius: 5px;
     max-width: 850px;
-    color: rgba($color-white, 0.8);
+    color: rgba($color-primary, 0.7);
   }
 
   &__contact {
-    color: rgba($color-white, 0.8);
+    color: $color-primary;
 
     &--email {
       margin-top: -1rem;

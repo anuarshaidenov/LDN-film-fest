@@ -1,16 +1,12 @@
 .section-partners {
   background-color: $color-primary;
-  padding: 3rem 0;
-
-  @media (min-width: 768px) {
-    padding: 5rem 0;
-  }
+  padding: 2rem 0 3rem;
 
   .container {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
   }
 }
 
@@ -19,7 +15,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 3rem;
 
   &__partner {
     max-width: 5rem;
