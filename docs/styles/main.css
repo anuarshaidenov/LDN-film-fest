@@ -942,30 +942,30 @@ a {
   border-radius: 5px;
   border: 1px solid transparent;
   background-color: rgba(255, 255, 255, 0.8);
-  color: rgba(39, 42, 49, 0.8);
+  color: #272a31;
 }
 
 .book-form input::-webkit-input-placeholder {
-  color: rgba(39, 42, 49, 0.8);
+  color: rgba(39, 42, 49, 0.5);
 }
 
 .book-form input:-ms-input-placeholder {
-  color: rgba(39, 42, 49, 0.8);
+  color: rgba(39, 42, 49, 0.5);
 }
 
 .book-form input::-ms-input-placeholder {
-  color: rgba(39, 42, 49, 0.8);
+  color: rgba(39, 42, 49, 0.5);
 }
 
 .book-form input::placeholder {
-  color: rgba(39, 42, 49, 0.8);
+  color: rgba(39, 42, 49, 0.5);
 }
 
 .book-form input:focus {
   outline: none;
   border: 1px solid #ec5242;
   background-color: rgba(236, 82, 66, 0.2);
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .book-form input:focus::-webkit-input-placeholder {

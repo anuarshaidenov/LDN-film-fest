@@ -3,6 +3,7 @@
 > LDN Film Festival 2021 Website.
 
 ### Home page desktop:
+
 ![screenshot](./screenshot.png)
 
 ## Objective:
@@ -12,6 +13,7 @@
 - Tell about the LDN Film Festival.
 - Let users see the genres of the festival.
 - Let users see the supporters of the festival.
+- Let users book tickets for the event.
 
 ## Built With
 
@@ -84,8 +86,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 Original design idea by [Cindy Shin in Behance.](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
-
-
 
 ## 📝 License
 
