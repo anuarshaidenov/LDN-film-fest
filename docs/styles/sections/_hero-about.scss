@@ -1,0 +1,56 @@
+.about-hero {
+  background:
+    linear-gradient(rgba($color-white, 0.9), rgba($color-white, 0.9)),
+    url(../images/hero-img-mobile.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 7rem 0 5rem;
+  border-bottom: 2px solid $color-tertiary;
+
+  @media (min-width: 768px) {
+    background:
+      linear-gradient(
+        rgba($color-white, 0.9),
+        rgba($color-white, 0.9)
+      ),
+      url(../images/hero-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    @media (min-width: 768px) {
+      gap: 2rem;
+    }
+  }
+
+  &__heading {
+    margin-bottom: 1rem;
+  }
+
+  &__description {
+    font-size: 0.8rem;
+    padding: 1rem 2rem;
+    background-color: rgba($color-white, 0.7);
+    border: 2px solid $color-tertiary;
+    border-radius: 5px;
+    max-width: 850px;
+    color: rgba($color-primary, 0.7);
+  }
+
+  &__contact {
+    color: $color-primary;
+
+    &--email {
+      margin-top: -1rem;
+    }
+  }
+}

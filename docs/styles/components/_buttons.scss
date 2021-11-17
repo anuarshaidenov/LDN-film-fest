@@ -1,0 +1,37 @@
+.btn-secondary {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: $color-secondary;
+  border: 2px solid $color-secondary;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 0.6em;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: $color-secondary;
+    color: $color-primary;
+    box-shadow: 0 8px 16px rgba($color-secondary, 0.24);
+    transform: translateY(-1px);
+  }
+}
+
+.btn-cta {
+  font-size: 1rem;
+  font-weight: 700;
+  color: $color-primary;
+  background: $color-secondary;
+  padding: 1em 3em;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($color-secondary, 5%);
+    box-shadow: 0 8px 16px rgba($color-secondary, 0.24);
+    transform: translateY(-1px);
+  }
+}

@@ -1,0 +1,29 @@
+.section-logo {
+  background-color: $color-white;
+  padding: 3rem 0;
+  text-align: center;
+  position: relative;
+  border-bottom: 2px solid $color-tertiary;
+
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+
+    @media (min-width: 768px) {
+      gap: 2rem;
+    }
+  }
+
+  &__text {
+    margin-bottom: 1rem;
+  }
+
+  &__logo {
+    padding: 1rem 2rem;
+    width: 70%;
+    max-width: 400px;
+    border: 2px solid $color-tertiary;
+  }
+}

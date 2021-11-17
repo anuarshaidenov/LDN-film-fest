@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+$font-heading: 2.5rem;
+$font-base: 18px;
+
+.heading {
+  font-family: 'Cocogoose', sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: $color-secondary;
+  background:
+    linear-gradient(
+      rgba($color-secondary, 0.9),
+      rgba($color-primary, 0.5)
+    ),
+    url(../images/hero-img-mobile.png);
+  background-repeat: repeat;
+  background-size: 50%;
+  background-position: 100% 100%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: $color-primary;
+}
+
+.section-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  text-align: center;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -9px;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 2px;
+    background-color: $color-secondary;
+    border-radius: 5px;
+  }
+
+  &--light {
+    color: rgba($color-white, 0.8);
+  }
+
+  &--secondary {
+    color: $color-tertiary;
+  }
+}
+
+.section-subtext {
+  font-size: 0.8rem;
+  max-width: 800px;
+}
+
+.base-text {
+  &--bold {
+    font-weight: 700;
+  }
+}

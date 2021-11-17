@@ -1,0 +1,13 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__item {
+    margin-right: 1rem;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

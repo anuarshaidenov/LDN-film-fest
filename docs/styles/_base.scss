@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: $font-base;
+  background-color: $color-white;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: $color-primary;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.translated {
+  transform: translateX(150%);
+}

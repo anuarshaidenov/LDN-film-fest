@@ -1,0 +1,26 @@
+.footer {
+  background-color: $color-white;
+  padding: 3rem 0;
+
+  &__logo {
+    width: 5rem;
+
+    @media (min-width: 768px) {
+      width: 4rem;
+    }
+  }
+
+  &__rights {
+    font-size: 0.8rem;
+  }
+
+  @media (min-width: 768px) {
+    padding: 2rem 0;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
