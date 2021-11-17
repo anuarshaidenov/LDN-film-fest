@@ -4,11 +4,11 @@ export default function displayData(container, data) {
   data.forEach((entry) => {
     const markup = `
   <li class="creative-card">
-  <img
+  <div class="creative-card__img"><img
     src="${entry.img}"
     alt="${entry.name} picture"
-    class="creative-card__img"
-  />
+    class=""
+  /></div>
   <h3 class="creative-card__name">${entry.name}</h3>
   <p class="creative-card__role">${entry.role}</p>
   <p class="creative-card__description">
