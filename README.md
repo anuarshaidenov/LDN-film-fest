@@ -15,6 +15,8 @@
 - Let users see the supporters of the festival.
 - Let users book tickets for the event.
 
+Watch [the 5 minute Loom video presentation](https://www.loom.com/share/b13500df18f94d2fafeff20c6799889b) to get a better idea about the project.
+
 ## Built With
 
 - HTML
