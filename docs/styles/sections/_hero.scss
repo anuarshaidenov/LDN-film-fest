@@ -1,7 +1,8 @@
 .section-hero {
   min-height: 95vh;
   padding-top: 20vh;
-  background: linear-gradient(rgba($color-white, 0.9), rgba($color-white, 0.9)),
+  background:
+    linear-gradient(rgba($color-white, 0.9), rgba($color-white, 0.9)),
     linear-gradient(rgba(#000, 0.8), rgba(#000, 0.7)),
     url(../images/hero-img-mobile.png);
   background-position: center;
@@ -9,7 +10,8 @@
   background-repeat: no-repeat;
 
   @media (min-width: 768px) {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         rgba($color-white, 0.9),
         rgba($color-white, 0.9)
       ),

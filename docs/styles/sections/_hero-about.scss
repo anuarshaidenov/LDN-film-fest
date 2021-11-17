@@ -1,5 +1,6 @@
 .about-hero {
-  background: linear-gradient(rgba($color-white, 0.9), rgba($color-white, 0.9)),
+  background:
+    linear-gradient(rgba($color-white, 0.9), rgba($color-white, 0.9)),
     url(../images/hero-img-mobile.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -9,7 +10,8 @@
   border-bottom: 2px solid $color-tertiary;
 
   @media (min-width: 768px) {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         rgba($color-white, 0.9),
         rgba($color-white, 0.9)
       ),

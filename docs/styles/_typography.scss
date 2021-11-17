@@ -8,7 +8,8 @@ $font-base: 18px;
   text-transform: uppercase;
   font-size: 2rem;
   color: $color-secondary;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       rgba($color-secondary, 0.9),
       rgba($color-primary, 0.5)
     ),
