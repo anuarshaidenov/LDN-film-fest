@@ -251,7 +251,11 @@ a {
             box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
   }
   .sticky .upper-nav {
-    display: none;
+    -webkit-transform: translateY(-150%);
+            transform: translateY(-150%);
+  }
+  .sticky .container.pt {
+    margin-top: -1.5rem;
   }
 }
 
@@ -389,12 +393,19 @@ a {
   display: none;
   background-color: #272a31;
   padding: 0.2rem 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 @media (min-width: 768px) {
   .upper-nav {
     display: block;
   }
+}
+
+.container.pt {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .pt {

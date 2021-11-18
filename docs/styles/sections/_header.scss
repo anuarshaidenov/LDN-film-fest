@@ -28,7 +28,11 @@
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
 
     .upper-nav {
-      display: none;
+      transform: translateY(-150%);
+    }
+
+    .container.pt {
+      margin-top: -1.5rem;
     }
   }
 }
@@ -150,10 +154,15 @@
   display: none;
   background-color: $color-primary;
   padding: 0.2rem 0;
+  transition: all 0.2s;
 
   @media (min-width: 768px) {
     display: block;
   }
+}
+
+.container.pt{
+  transition: all 0.2s;
 }
 
 .pt {
